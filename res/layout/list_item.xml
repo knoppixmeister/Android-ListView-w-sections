@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent">
+
+    <TextView	android:id="@+id/textView1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_alignParentRight="true"
+		        android:layout_alignParentTop="true"
+		        android:paddingTop="20dp"
+		        android:paddingBottom="20dp"
+		        android:paddingLeft="20dp"
+		        android:textColor="@android:color/black"
+		        android:text="Item value ...." />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:paddingLeft="20dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="5dp"
+        android:text="sa asdkjsaa sdd asjd ajsd sagdsa gdhsagd hasgdh sadgsahg dhasgd hasgdashd asd ashdg asdgash gdhasgd hagsdh gasdhgas hdgashdg ashdg hasdg sgadhas gdhasgd hsadg hsadg hgashd gashdg hasdg hasgdhas gdhasg dhgasdh ashdg ashdgs hdgsadjsad" />
+
+</RelativeLayout>
